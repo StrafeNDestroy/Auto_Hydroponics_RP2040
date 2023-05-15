@@ -1,0 +1,33 @@
+EZO_RTD_DATASHEET: https://files.atlas-scientific.com/EZO_RTD_Datasheet.pdf
+
+Consended Version:
+    Sending commands to device:
+        Start Address Write Command(ASCII String) Stop
+
+    Commands:
+        Baud; switch back to UART mode
+        Cal: Performs Calibration
+        D: Enable/disbale data logger
+        Export: Exort Calibration
+        Factroy: enable Factory reset
+        Find: finds devices with white blinking LED
+        I: Device Information
+        Import: import Calibration
+        L: Enable/disable LED
+
+
+    Requesting(READING) data from device:
+        Start Address Read Response_Code Data_String Null_Terminator Stop
+
+    Response Codes
+        255: No Data to send
+        254: still processing,not ready
+        2:   syntax error
+        1:   Successful Request
+
+    LED Color Definiton
+        Blue: I2C Standny
+        Green: Reading
+        Purple: Changing I2C Address
+        Red: Command Not understood
+        White: find
