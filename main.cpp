@@ -1,4 +1,4 @@
-// main loop
+// main loops
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
