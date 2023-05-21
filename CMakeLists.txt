@@ -11,7 +11,7 @@ project(Auto_Hydroponics)
 # Creates a pico-sdk subdirectory in Project for Libraries
 pico_sdk_init()
 
-add_executable(${PROJECT_NAME} main.cpp Classes/ATLAS_TEMP_PROBE.cpp)
+add_executable(${PROJECT_NAME} main.cpp Classes/Atlas_Temp_Probe.cpp)
 
 # Create map/bin/hex/uf2 files
 pico_add_extra_outputs(${PROJECT_NAME})
@@ -20,6 +20,7 @@ pico_add_extra_outputs(${PROJECT_NAME})
 target_link_libraries(${PROJECT_NAME}
     pico_stdlib
     hardware_i2c
+    pico_cyw43_arch
 )
 
 # Enable USB Output

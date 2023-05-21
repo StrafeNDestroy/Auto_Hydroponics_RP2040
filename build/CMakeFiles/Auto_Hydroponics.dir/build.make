@@ -83,19 +83,19 @@ CMakeFiles/Auto_Hydroponics.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Auto_Hydroponics.dir/main.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Programming/R-Pie-Micro-Controller/main.cpp -o CMakeFiles/Auto_Hydroponics.dir/main.cpp.s
 
-CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
-CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.obj: ../Classes/ATLAS_TEMP_PROBE.cpp
-CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.obj -MF CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.obj.d -o CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.obj -c /home/Programming/R-Pie-Micro-Controller/Classes/ATLAS_TEMP_PROBE.cpp
+CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj: ../Classes/Atlas_Temp_Probe.cpp
+CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj -MF CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj.d -o CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj -c /home/Programming/R-Pie-Micro-Controller/Classes/Atlas_Temp_Probe.cpp
 
-CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Programming/R-Pie-Micro-Controller/Classes/ATLAS_TEMP_PROBE.cpp > CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.i
+CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Programming/R-Pie-Micro-Controller/Classes/Atlas_Temp_Probe.cpp > CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.i
 
-CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Programming/R-Pie-Micro-Controller/Classes/ATLAS_TEMP_PROBE.cpp -o CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.s
+CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Programming/R-Pie-Micro-Controller/Classes/Atlas_Temp_Probe.cpp -o CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.s
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -1052,10 +1052,220 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/ha
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+
 # Object files for target Auto_Hydroponics
 Auto_Hydroponics_OBJECTS = \
 "CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj" \
-"CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1124,13 +1334,28 @@ Auto_Hydroponics_OBJECTS = \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
 
 # External object files for target Auto_Hydroponics
 Auto_Hydroponics_EXTERNAL_OBJECTS =
 
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj
-Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1200,10 +1425,25 @@ Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/build.make
 Auto_Hydroponics.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking CXX executable Auto_Hydroponics.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking CXX executable Auto_Hydroponics.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Auto_Hydroponics.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/Programming/R-Pie-Micro-Controller/build/Auto_Hydroponics.elf Auto_Hydroponics.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/Programming/R-Pie-Micro-Controller/build/Auto_Hydroponics.elf Auto_Hydroponics.bin

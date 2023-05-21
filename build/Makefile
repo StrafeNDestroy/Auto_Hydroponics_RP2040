@@ -207,29 +207,125 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-Classes/ATLAS_TEMP_PROBE.obj: Classes/ATLAS_TEMP_PROBE.cpp.obj
-.PHONY : Classes/ATLAS_TEMP_PROBE.obj
+Classes/Atlas_Temp_Probe.obj: Classes/Atlas_Temp_Probe.cpp.obj
+.PHONY : Classes/Atlas_Temp_Probe.obj
 
 # target to build an object file
-Classes/ATLAS_TEMP_PROBE.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.obj
-.PHONY : Classes/ATLAS_TEMP_PROBE.cpp.obj
+Classes/Atlas_Temp_Probe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj
+.PHONY : Classes/Atlas_Temp_Probe.cpp.obj
 
-Classes/ATLAS_TEMP_PROBE.i: Classes/ATLAS_TEMP_PROBE.cpp.i
-.PHONY : Classes/ATLAS_TEMP_PROBE.i
+Classes/Atlas_Temp_Probe.i: Classes/Atlas_Temp_Probe.cpp.i
+.PHONY : Classes/Atlas_Temp_Probe.i
 
 # target to preprocess a source file
-Classes/ATLAS_TEMP_PROBE.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.i
-.PHONY : Classes/ATLAS_TEMP_PROBE.cpp.i
+Classes/Atlas_Temp_Probe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.i
+.PHONY : Classes/Atlas_Temp_Probe.cpp.i
 
-Classes/ATLAS_TEMP_PROBE.s: Classes/ATLAS_TEMP_PROBE.cpp.s
-.PHONY : Classes/ATLAS_TEMP_PROBE.s
+Classes/Atlas_Temp_Probe.s: Classes/Atlas_Temp_Probe.cpp.s
+.PHONY : Classes/Atlas_Temp_Probe.s
 
 # target to generate assembly for a file
-Classes/ATLAS_TEMP_PROBE.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/Classes/ATLAS_TEMP_PROBE.cpp.s
-.PHONY : Classes/ATLAS_TEMP_PROBE.cpp.s
+Classes/Atlas_Temp_Probe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.s
+.PHONY : Classes/Atlas_Temp_Probe.cpp.s
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
 home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
@@ -935,6 +1031,54 @@ home/Programming/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj: home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj: home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+
 home/Programming/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/Programming/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 
@@ -1038,6 +1182,30 @@ home/Programming/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 home/Programming/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/Programming/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/Programming/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
@@ -1238,6 +1406,198 @@ home/Programming/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/Progr
 home/Programming/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 home/Programming/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
@@ -1750,9 +2110,21 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... Auto_Hydroponics"
 	@echo "... bs2_default"
-	@echo "... Classes/ATLAS_TEMP_PROBE.obj"
-	@echo "... Classes/ATLAS_TEMP_PROBE.i"
-	@echo "... Classes/ATLAS_TEMP_PROBE.s"
+	@echo "... Classes/Atlas_Temp_Probe.obj"
+	@echo "... Classes/Atlas_Temp_Probe.i"
+	@echo "... Classes/Atlas_Temp_Probe.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
 	@echo "... home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -1841,6 +2213,12 @@ help:
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
@@ -1854,6 +2232,9 @@ help:
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
@@ -1879,6 +2260,30 @@ help:
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
