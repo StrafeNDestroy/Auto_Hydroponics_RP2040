@@ -69,19 +69,19 @@ include CMakeFiles/Auto_Hydroponics.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Auto_Hydroponics.dir/flags.make
 
-CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
-CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj: ../main.cpp
-CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj -MF CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj.d -o CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj -c /home/Programming/R-Pie-Micro-Controller/main.cpp
+CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.obj: ../source_file/main.cpp
+CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.obj -MF CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.obj.d -o CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.obj -c /home/Programming/R-Pie-Micro-Controller/source_file/main.cpp
 
-CMakeFiles/Auto_Hydroponics.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Auto_Hydroponics.dir/main.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Programming/R-Pie-Micro-Controller/main.cpp > CMakeFiles/Auto_Hydroponics.dir/main.cpp.i
+CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Programming/R-Pie-Micro-Controller/source_file/main.cpp > CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.i
 
-CMakeFiles/Auto_Hydroponics.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Auto_Hydroponics.dir/main.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Programming/R-Pie-Micro-Controller/main.cpp -o CMakeFiles/Auto_Hydroponics.dir/main.cpp.s
+CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Programming/R-Pie-Micro-Controller/source_file/main.cpp -o CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.s
 
 CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj: ../Classes/Atlas_Temp_Probe.cpp
@@ -1052,10 +1052,1242 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/ha
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -c /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
@@ -1069,7 +2301,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pi
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
@@ -1083,7 +2315,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pi
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -1097,7 +2329,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pi
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
@@ -1111,7 +2343,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pi
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -1125,7 +2357,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pi
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -1139,7 +2371,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -1153,7 +2385,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -1167,7 +2399,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -1181,7 +2413,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -1195,7 +2427,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pi
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -1209,7 +2441,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pi
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1223,7 +2455,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/ha
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -1237,7 +2469,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/ha
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1251,7 +2483,7 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/ha
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -1262,9 +2494,23 @@ CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/Auto_Hydroponics.dir/flags.make
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: /home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/Auto_Hydroponics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+
 # Object files for target Auto_Hydroponics
 Auto_Hydroponics_OBJECTS = \
-"CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
@@ -1335,6 +2581,94 @@ Auto_Hydroponics_OBJECTS = \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
@@ -1349,12 +2683,13 @@ Auto_Hydroponics_OBJECTS = \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
 "CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
-"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
+"CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
 
 # External object files for target Auto_Hydroponics
 Auto_Hydroponics_EXTERNAL_OBJECTS =
 
-Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/Classes/Atlas_Temp_Probe.cpp.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -1425,6 +2760,94 @@ Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
@@ -1440,10 +2863,11 @@ Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/build.make
 Auto_Hydroponics.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 Auto_Hydroponics.elf: CMakeFiles/Auto_Hydroponics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking CXX executable Auto_Hydroponics.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Programming/R-Pie-Micro-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Linking CXX executable Auto_Hydroponics.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Auto_Hydroponics.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/Programming/R-Pie-Micro-Controller/build/Auto_Hydroponics.elf Auto_Hydroponics.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/Programming/R-Pie-Micro-Controller/build/Auto_Hydroponics.elf Auto_Hydroponics.bin

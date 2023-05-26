@@ -327,6 +327,2046 @@ home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 .PHONY : home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.obj: home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.i: home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.s: home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.obj: home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.i: home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.s: home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/err.obj: home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/err.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/err.i: home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/err.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/err.s: home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/err.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/err.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.obj: home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.i: home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.s: home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.obj: home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.i: home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.s: home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.obj: home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.i: home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.s: home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.obj: home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.i: home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.s: home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.obj: home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.i: home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.s: home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.obj: home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.i: home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.s: home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/def.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/def.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/def.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/def.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/def.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/def.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/def.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/init.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/init.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/init.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/init.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/init.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/init.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/init.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.i: home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.s: home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.obj: home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.i: home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.s: home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+
 home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -1375,6 +3415,54 @@ home/Programming/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+
 home/Programming/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
@@ -1767,6 +3855,30 @@ home/Programming/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeab
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
+home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+
 home/Programming/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
 
@@ -1846,6 +3958,30 @@ home/Programming/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/Program
 home/Programming/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj
+
+# target to build an object file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.i: home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.i
+
+# target to preprocess a source file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+
+home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.s: home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.s
+
+# target to generate assembly for a file
+home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
 home/Programming/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/Programming/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
@@ -2071,29 +4207,29 @@ home/Programming/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/home/Programming/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/Programming/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+source_file/main.obj: source_file/main.cpp.obj
+.PHONY : source_file/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+source_file/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.obj
+.PHONY : source_file/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+source_file/main.i: source_file/main.cpp.i
+.PHONY : source_file/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/main.cpp.i
-.PHONY : main.cpp.i
+source_file/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.i
+.PHONY : source_file/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+source_file/main.s: source_file/main.cpp.s
+.PHONY : source_file/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/main.cpp.s
-.PHONY : main.cpp.s
+source_file/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Auto_Hydroponics.dir/build.make CMakeFiles/Auto_Hydroponics.dir/source_file/main.cpp.s
+.PHONY : source_file/main.cpp.s
 
 # Help Target
 help:
@@ -2125,6 +4261,261 @@ help:
 	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj"
 	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
 	@echo "... home/Programming/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/api_lib.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/api_msg.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/err.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/err.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/err.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/if_api.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/netbuf.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/netdb.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/netifapi.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/sockets.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/api/tcpip.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/def.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/def.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/def.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/dns.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/init.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/init.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/init.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ip.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/mem.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/memp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/netif.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/pbuf.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/raw.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/stats.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/sys.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_in.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/tcp_out.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/timeouts.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/core/udp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ethernet.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/slipif.s"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.obj"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.i"
+	@echo "... home/Programming/pico/pico-sdk/lib/lwip/src/netif/zepif.s"
 	@echo "... home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/Programming/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2256,6 +4647,12 @@ help:
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
@@ -2305,6 +4702,9 @@ help:
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
@@ -2315,6 +4715,9 @@ help:
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.i"
+	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_rand/rand.s"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
@@ -2343,9 +4746,9 @@ help:
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... home/Programming/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
-	@echo "... main.obj"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... source_file/main.obj"
+	@echo "... source_file/main.i"
+	@echo "... source_file/main.s"
 .PHONY : help
 
 
